@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: olivedrab;
+}
+#outline{
+    width: 335px;
+    height: 415px;
+    margin: 20px auto;
+    background-color: rgb(48, 65, 16);
+    font-size: small;
+    text-align: center;
+    
+}
+
+.text{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inputcls{
+    background-color: rgb(155, 170, 150);
+    outline: none;
+    transition: 1s background-color;
+    width: 290px;
+    height: 30px;
+    margin:15px 0px;
+    /* text-align: left; */
+}
+
+.inputcls:focus{
+    background-color: rgb(11, 44, 2);
+    text-align: right;
+    color: antiquewhite;
+    font-family: cursive;
+
+}
+.tbl{
+    margin: 0 auto;
+    border:hidden;
+    /* padding: 15px 0px 20px 17px; */
+    /* padding-top: 5px;
+    padding-left: 7px; */
+}
+.tbl-head{
+    background-color:rgba(37, 80, 2, 0.952);
+    color:antiquewhite;
+    transition: 1s background-color,1s color;
+
+}
+.tbl-head:hover{
+    background-color:antiquewhite;
+    color:rgba(37, 80, 2, 0.952);
+    border: 2px solid #777;
+
+}
+/* table_head_element */
+
+.tbl-cell{
+    background-color: antiquewhite;    
+    color:rgb(33, 70, 21);
+    width: 40px;
+    height:40px;
+}
+.tbl-cell:hover{
+    border: 2px solid #777;
+}
+.tbl-head, .tbl-cell{
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 7px;
+}
+#equal {    
+    background-color: antiquewhite;    
+    color:rgb(33, 70, 21);
+}
+#equal:hover{
+    
+    background-color:rgb(33, 70, 21);    
+    color:antiquewhite;
+    border: 2px solid #777;
+}
+/* .quiz{
+    list-style-type: upper-alpha;
+} */
+
+.practice{
+    width: 800px;
+    height: 350px;
+    border-radius: 5%;
+    margin: 20px auto;
+    background-color: rgb(196, 235, 125);
+}
+.class1{
+    list-style-type: none;
+    padding-left: 30px;
+    color: rgb(32, 68, 8);
+    font-family: cursive;
+    font-size: 22px;
+}
+.class2 a{
+    width:90px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:rgb(33, 70, 21); 
+    color:antiquewhite;
+    margin: 5px 5px;
+    padding-left: 7px;
+    text-decoration: none;
+    display: block;
+    color:antiquewhite;    
+    transition: 1s background-color, 1s color;
+}
+
+a:hover{
+    background-color:antiquewhite; 
+    color:rgb(33, 70, 21); 
+}
+
+.class3{
+    list-style-type: none;
+}
